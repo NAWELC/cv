@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -9,7 +8,7 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="grid grid-cols-3 h-40 bg-black">
+    <header class="grid grid-cols-3 h-40 bg-cyan-400">
       <div class="flex justify-center items-center">
         <img
           src="./assets/img/profil.jpg"
@@ -20,7 +19,7 @@
         />
       </div>
       <div
-        class="flex flex-col justify-center items-center text-white uppercase col-span-2"
+        class="flex flex-col justify-center items-center text-white uppercase col-span-2 text-brown"
       >
         <h1>Chaib Nawel</h1>
         <h2>Développeur Web</h2>
@@ -28,33 +27,59 @@
     </header>
     <!-- Content -->
     <div class="grid grid-cols-3">
-      <aside class="grid grid-rows-6 h-full bg-beige">
+      <aside class="grid grid-rows-6 h-full bg-cyan-400">
         <!-- Row 1 -->
-        <div class="pt-8">
-          <h3 class="uppercase text-center">Compétences</h3>
-          <hr width="50%" />
-          <div class="flex flex-col pt-4 pl-4 uppercase">
-            <span>Html/Css</span>
-            <span>Javascript</span>
-            <span>Php/Slq</span>
-          </div>
+        <div class="flex flex-col pt-4 pl-4 uppercase ">
+            <h3 class="uppercase text-center text-brown">Compétences</h3>
+            <hr width="50%" style="border-color: #A13927;" />
+            <div class="flex flex-col pt-4">
+              <span class="text-center">Html/Css</span>
+              <div class="flex flex-row justify-center">
+                <i class="fa-solid fa-star text-gold"></i>
+                <i class="fa-solid fa-star text-gold"></i>
+                <i class="fa-solid fa-star text-gold"></i>
+                <i class="fa-light fa-star text-gold"></i>
+                <i class="fa-regular fa-star text-gold"></i>
+                <i class="fa-regular fa-star text-gold"></i>
+              </div>
+            </div>
+            <div class="flex flex-col py-8">
+              <span class="text-center">javascript</span>
+              <div class="flex flex-row justify-center">
+                <i class="fa-solid fa-star text-gold"></i>
+                <i class="fa-solid fa-star text-gold"></i>
+                <i class="fa-solid fa-star text-gold"></i>
+                <i class="fa-light fa-star text-gold"></i>
+                <i class="fa-regular fa-star text-gold"></i>
+                <i class="fa-regular fa-star text-gold"></i>
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <span class="text-center">PHP/SQL</span>
+              <div class="flex flex-row justify-center">
+                <i class="fa-solid fa-star text-gold"></i>
+                <i class="fa-solid fa-star text-gold"></i>
+                <i class="fa-solid fa-star text-gold"></i>
+                <i class="fa-light fa-star text-gold"></i>
+                <i class="fa-regular fa-star text-gold"></i>
+                <i class="fa-regular fa-star text-gold"></i>
+              </div>
+            </div>
         </div>
         <!-- Row 2 -->
         <div class="pt-8">
-          <h3 class="uppercase text-center">Mes liens</h3>
-          <hr width="50%" />
+          <h3 class="uppercase text-center text-brown">Mes liens</h3>
+          <hr width="50%" style="border-color: #A13927;"/>
           <div class="flex flex-col pt-4 pl-4">
-            <span
-              >Portfolio :
-              <a
+            <span><i class="fa-solid fa-book"></i> Portfolio :
+                  <a
                 href="https://nawel-portfolio.netlify.app/"
                 target="_blank"
                 rel="https://nawel-portfolio.netlify.app/"
                 >https://nawelc-portfolio.netlify.app/</a
               ></span
             >
-            <span
-              >Github :
+            <span ><i class="fa-brands fa-github"></i> Github :
               <a
                 href="https://github.com/NAWELC"
                 target="_blank"
@@ -66,21 +91,21 @@
         </div>
         <!-- Row 3 -->
         <div class="pt-8">
-          <h3 class="uppercase text-center">Hard skills</h3>
-          <hr width="50%" />
-          <div class="pt-4 pl-4">
-            <ul>
-              <li>react</li>
-              <li>tailwind</li>
-              <li>webpack</li>
-              <li>node</li>
+          <h3 class="uppercase text-center text-brown">Hard skills</h3>
+          <hr width="50%" style="border-color: #A13927;" />
+          <div class= "">
+            <ul class="">
+              <li ><i class="fa-brands fa-react"></i></li>
+              <li><img src="./assets/img/tailwind.png" width="5%" height="auto"alt=""></li>
+              <li><img src="./assets/img/webpack.png" width="5%" height="auto" alt=""></li>
+              <li><i class="fa-brands fa-node"></i></li>
             </ul>
           </div>
         </div>
         <!-- Row 4 -->
-        <div class="pt-8">
-          <h3 class="uppercase text-center">Soft skills</h3>
-          <hr width="50%" />
+        <div class="pt-8 pl-4">
+          <h3 class="uppercase text-center text-brown">Soft skills</h3>
+          <hr width="50%" style="border-color: #A13927;" />
           <div class="pt-4 pl-4">
             <ul>
               <li>ambitieuse</li>
@@ -92,8 +117,8 @@
         </div>
         <!-- Row 5 -->
         <div class="pt-8">
-          <h3 class="uppercase text-center">Centres d'intérêts</h3>
-          <hr width="50%" />
+          <h3 class="uppercase text-center text-brown">Centres d'intérêts</h3>
+          <hr width="50%" style="border-color: #A13927;" />
           <div class="pt-4 pl-4 text-center">
             <h4>sport</h4>
             <div class="flex flex-col">
@@ -109,8 +134,8 @@
         </div>
         <!-- Row 6 -->
         <div class="pt-8">
-          <h3 class="uppercase text-center">Informations générales</h3>
-          <hr width="50%" />
+          <h3 class="uppercase text-center text-brown">Informations générales</h3>
+          <hr width="50%" style="border-color: #A13927;" />
           <div class="flex flex-col pt-4 pl-4">
             <span>28 decembre 1976</span>
             <span>06 99 38 07 30</span>
@@ -121,39 +146,39 @@
         </div>
       </aside>
       <!-- Body content -->
-      <div class="col-span-2 px-8 py-8">
-        <h1 class="text-center uppercase ">Expériences professionnelles</h1>
+      <div class="col-span-2 px-8 py-8 bg-amber-100">
+        <h1 class="text-center uppercase text-brown">Expériences professionnelles</h1>
         <hr>
         <div class="pt-8 pl-8">
           <p>
-            <h3>Vendeur conseil - (Celio)</h3>
-            <span class="italic">2000 - 2005</span>
+            <h3>Aide Educatrice - Education Nationale</h3>
+            <span class="italic">1997- 2000</span>
             <ul class="pl-4">
-              <li>Assurer le réassort</li>
-              <li>Gérer le point de vente</li>
-              <li>Conseiller la clientèle</li>
+              <li>Accueil des parents et des enfants</li>
+              <li>Animation des activités</li>
+              <li>aide aux enfants</li>
             </ul>
           </p>
           <p class="pt-8">
-            <h3>Vendeur conseil - (Brice)</h3>
-            <span class="italic">1999 - 2000</span>
+            <h3>Agent de régulation-RATP</h3>
+            <span class="italic">2017-2018</span>
             <ul class="pl-4">
-              <li>Assurer le réassort</li>
-              <li>Gérer le point de vente</li>
-              <li>Conseiller la clientèle</li>
+              <li>Aider à la fermeture des portes des trains du RER A et B</li>
+              <li>Gerer la montée et la descente des clients dans les trains et metro</li>
+              <li>Renseigner et orienter les clients en situation normale et perturbée</li>
             </ul>
           </p>
           <p class="pt-8">
-            <h3>Vendeur conseil - (Zara)</h3>
-            <span class="italic">1998 - 1999</span>
+            <h3>Agent PMR - Aéroport Roissy Charles de Gaule</h3>
+            <span class="italic">2018-2019</span>
             <ul class="pl-4">
-              <li>Assurer le réassort</li>
-              <li>Gérer le point de vente</li>
-              <li>Conseiller la clientèle</li>
+              <li>Accueillir et Accompagner les passagers ayant besoin d’une assistance pour se déplacer ou communiquer telles que les personnes âgées, handicapées, ou à mobilité réduite</li>
+              <li>Accompagner et Assister le passager à mobilité réduite lors de l’enregistrement, au poste d’inspection filtrage, à l’embarquement, à l’installation à bord de l’appareil, lors des arrivées et jusqu’à la sortie de l’aérogare</li>
+              <li>Accompagner et Assister le passager à mobilité réduite lors de l’enregistrement, au poste d’inspection filtrage, à l’embarquement, à l’installation à bord de l’appareil, lors des arrivées et jusqu’à la sortie de l’aérogare</li>
             </ul>
           </p>
         </div>
-        <h1 class="text-center uppercase pt-8">En formation</h1>
+        <h1 class="text-center uppercase pt-8 text-brown">En formation</h1>
         <hr>
         <div class="pt-8 pl-8">
           <p>
@@ -178,12 +203,12 @@
             <h3>Développeur web - (Digi'Codes)</h3>
             <span class="italic">2021 - 2022</span>
             <ul class="pl-4">
-              <li>Assurer le réassort</li>
-              <li>Gérer le point de vente</li>
-              <li>Conseiller la clientèle</li>
+              <li>Decouverte du numérique</li>
+              <li>Initiation aux logiciels Illustrator,Indesign,Tinkercad,Html,Css</li>
+              <li>decouverte de metiers comme Infographiste,developpeur,modélisateur 3D</li>
             </ul>
           </p>
-          <h1 class="text-center uppercase pt-8">Diplômes</h1>
+          <h1 class="text-center uppercase pt-8 text-brown">Diplômes</h1>
           <hr>
           <div class="pt-8">
             <p>
@@ -192,32 +217,32 @@
               <h4 class="italic pl-4 font-thin">Développer la partie front-end et back-end d'une application web et web mobile</h4>
             </p>
             <p class="pt-8">
-              <h3>Brevet des collèges - (Collège Albert Camus)</h3>
-              <span class="italic">2010 - 2011</span>
-              <h4 class="italic pl-4 font-thin">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, mollitia ratione et delectus qui, aliquid fugit amet deserunt repellat corrupti ipsum animi ullam id, reiciendis praesentium minus? Quam, dicta maxime</h4>
+              <h3>Bac littéraire - (Lycée Jean Vilar)</h3>
+              <span class="italic">1995- 1996</span>
+              <h4 class="italic pl-4 font-thin">Z</h4>
             </p>
           </div>
         </div>
       </div>
     </div>
     <!-- Footer -->
-    <footer class="w-full h-20 bg-black text-white">
+    <footer class="w-full h-20 bg-black text-white bg-cyan-400">
       <div class="flex flex-col justify-center items-center h-full">
-        <span class="italic">Copyright</span>
+        <span class="italic text-brown">Copyright</span>
         <div class="pt-4">
           <span>
-            <a href="#" target="_blank" rel="noreferrer noopener" class="text-white decoration-none">
-              <i class="fa-solid fa-link"></i>
+            <a href="https://nawel-portfolio.netlify.app/ " target="_blank" rel="noreferrer noopener" class="text-white decoration-none">
+              <i class="fa-solid fa-link text-brown"></i>
             </a>
           </span>
           <span class="px-4">
-            <a href="#" target="_blank" rel="noreferrer noopener" class="text-white decoration-none">
-              <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/NAWELC" target="_blank" rel="noreferrer noopener" class="text-white decoration-none">
+              <i class="fa-brands fa-github text-brown"></i>
             </a>
           </span>
           <span>
-            <a href="#" target="_blank" rel="noreferrer noopener" class="text-white decoration-none">
-              <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/nawel-chaib-97930b96/" target="_blank" rel="noreferrer noopener" class="text-white decoration-none">
+              <i class="fa-brands fa-linkedin text-brown"></i>
             </a>
           </span>
         </div>

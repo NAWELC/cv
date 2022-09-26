@@ -3,6 +3,17 @@
   padding: 0;
 }
 
+.space-x-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mr-px {
+  margin-right: 1px;
+
+}
+
+
 .grid {
   display: grid;
 }
@@ -26,6 +37,9 @@
     flex-direction: column;
 }
 
+.flex-row {
+  flex-direction: row;
+}
 
 .justify-center {
     justify-content: center;
@@ -59,13 +73,54 @@
   height: 100vh;
 }
 
+.bg-amber-100 {
+  background-color: rgb(254 243 199);
+}
+
+.bg-yellow-600{
+
+  background-color: rgb(202 138 4);
+
+}
+
+.bg-amber-100
+
+{
+
+  background-color: rgb(255 251 235);
+
+}
+
+
+.bg-green-300
+{
+  background-color: rgb(134 239 172);
+  
+}
+
+.bg-yellow-500{
+  background-color: rgb(234 179 8);
+}
+
 .bg-black {
   background-color: black;
 }
 
+
 .bg-beige {
   background-color: beige;
 }
+
+.bg-cyan-400{
+
+  background-color: rgb(34 211 238);
+}
+
+.bg-cyan-500
+{
+  background-color: rgb(6 182 212);
+}
+
 
 .rounded-full {
   border-radius: 9999px;
@@ -140,4 +195,16 @@
 
 .decoration-none {
   text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.text-gold {
+  color: gold;
+}
+
+.text-brown {
+  color: #A13927;
 }
