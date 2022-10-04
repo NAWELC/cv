@@ -234,7 +234,7 @@
     text-decoration: none;
   }
   
-  a:hover {
+  .a:hover {
     color: yellow;
   }
   
@@ -282,9 +282,17 @@
   
     
   }
+
+  .inline-flex{
+    display: inline;
+  }
   
   .style-list-cuisine{
     list-style-type:"\01F374" ;
+  }
+
+  .list-inside{
+    list-style-position: inside; 
   }
   
   .style-list-nature{
@@ -490,6 +498,10 @@
   .pl-8 {
     padding-left: 2rem;
   }
+
+  .pl-3 {
+    padding-left: 0.75rem; /* 12px */
+  }
   
   .pt-4 {
     padding-top: 1rem;
@@ -538,7 +550,7 @@
     text-decoration: none;
   }
   
-  a:hover {
+  .a:hover {
     color: yellow;
   }
   
@@ -610,3 +622,20 @@
     list-style-type:"\01F3CA \200D \2640 \FE0F" ;
   }
 }
+
+.list-inside{
+  list-style-position: inside; 
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+
+  .justify-around{
+    justify-content: space-around;
+  }
+
+  .justify-items-center{
+    justify-items: center;
+  }
