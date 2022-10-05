@@ -329,13 +329,35 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+
+  .border-solid
+  {
+    border-style: solid;
+  }
+
+  .border-x-4{
+    border-left-width: 4px;
+    border-right-width: 4px; 
+  }
   
   .mr-px {
     margin-right: 1px;
   
   }
+
+  .pr-2{
+    padding-right: 0.5rem; /* 8px */ 
+  }
   
-  .text-center{
+  .pr-5{
+    padding-right: 1.25rem; /* 20px */
+  }
+
+  .pr-7{
+    padding-right: 1.75rem; /* 28px */
+  }
+  
+.text-center{
     text-align: center;
   }
   
@@ -615,6 +637,10 @@
   .style-list-cinema{
   
     list-style-type:"\01F3AC" ;
+  }
+
+  .style-list-telephone{
+    list-style-type:"\260E \FE0F"
   }
   
   .style-list-natation{
