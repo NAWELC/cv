@@ -330,14 +330,10 @@
     margin-right: 0px;
   }
 
-  .border-solid
+  
+  .box-border
   {
-    border-style: solid;
-  }
-
-  .border-x-4{
-    border-left-width: 4px;
-    border-right-width: 4px; 
+    box-sizing: border-box;
   }
   
   .mr-px {
