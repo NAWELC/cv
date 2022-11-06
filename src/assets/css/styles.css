@@ -661,3 +661,23 @@
   .justify-items-center{
     justify-items: center;
   }
+
+  .style-list-anni{
+    list-style-type: "\01F382";
+  }
+
+  .style-list-tel{
+    list-style-type: "\01F4DE";
+  }
+
+  .style-list-email{
+    list-style-type:"\01F4E7" ;
+  }
+
+  .style-list-domicile{
+    list-style-type:"\01F3E0" ;
+  }
+
+  .style-list-voiture{
+    list-style-type: "\01F697";
+  }
